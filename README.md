@@ -4,6 +4,8 @@ Our Qiskit Advocate Mentorship Project for Spring, 2022 is a [Transpiler Hackath
 
 Our Github organization is [here](https://github.com/QAMP-Spring-2022-Transpiler-Hackathon).
 
+[View this document formatted on GitHub Pages](https://qamp-spring-2022-transpiler-hackathon.github.io/)
+
 ## Our team (listed in alphabetical order by last name):
 
 ### Vishu Ajith
