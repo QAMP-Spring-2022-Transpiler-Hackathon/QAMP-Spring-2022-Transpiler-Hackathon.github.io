@@ -4,26 +4,7 @@ Our Qiskit Advocate Mentorship Project for Spring, 2022 is a [Transpiler Hackath
 
 Our Github organization is [here](https://github.com/QAMP-Spring-2022-Transpiler-Hackathon).
 
-A web journal of our effort will be posted [here](https://QAMP-Spring-2022-Transpiler-Hackathon.github.io).
-
-## 2022-03-14
-Our team met today with Kevin Krsulich of the IBM Q team to examine promising transpiler issues to address. Two major issues that came up in discussion are:
-* [Add adaptive limits for VF2Layout in preset passmanagers](https://github.com/Qiskit/qiskit-terra/issues/7705)
-  * The transpiler VF2Layout component, if successful, is very effective, but if unsuccessful, can take a long time to fail. This can be partly addressed by proving the user with a "knob" to dial back how long or how many tries VF2Layout takes before giving up. Currenty, there are fixed time limits, but such limits to be effective need to be sensitive to device size and input circuit size. We need examples of perfect layouts which are hard to solve within the current mapping. The solution to the problem is driven by different applications, demonstrations, and examples. There does not yet exist a sufficient body of benchmarks. There are a few papers on VF2, but experimentation will be needed to yield substantial improvement.
-* [Add support for BackendV2 and Target to transpiler](https://github.com/Qiskit/qiskit-terra/issues/7113)
-  * The previous version, Backend V1, is still in use in most places, and deals with configuration, coupling, and basis gates. Backend V2 extends these notions and provides better support for different hardware architectures, e.g., ion traps, which are not well represented by V1. V2 is more general,and expresses gates independently. Support for V2 within existing transpiler passes very limited. All passes must be updated for V2: this one issue will spawn nultiple PRs. The effort is made difficult in that there exists many hard-coded assumptions in the transpiler code. 
-
-Additionally, team member Harshit Gupta is currently finishing up work he previously undertook on the following to issues:
-* [better convergence criteria in preset passmanagers](https://github.com/Qiskit/qiskit-terra/issues/7386)
-* [parallelization / depth reduction pass](https://github.com/Qiskit/qiskit-terra/issues/7387)
-
-For this coming week, the team is going to all work together on finishing up issue 7387 ("better convergence") with Harshit, in part, to become oriented in the transpiler. Then we will proceed to one of the major issues, either dividing into two groups to address both 7705 and 7113, or working together on one or both of those issues.
-
-Our team may also undertake _inter alia_ to address a few smaller issues that can more easily be closed. Jack Woehr will sift through the transpiler issues for smaller issues.
-
-## 2022-03-09:
-
-Our team is now as follows (listed in alphabetical order by last name):
+## Our team (listed in alphabetical order by last name):
 
 ### Vishu Ajith
 
@@ -48,6 +29,7 @@ Our team is now as follows (listed in alphabetical order by last name):
 
 ### Oskar Słowik
 
+* [Résumé](http://quantmath.pl/cv2/)
 * PhD student in mathematical aspects of quantum computing
 * MSc in Math
 * [Two publications in Quantum Journal](https://scholar.google.com/citations?user=ZFtNZFEAAAAJ&hl=en&oi=ao)
@@ -62,7 +44,24 @@ Our team is now as follows (listed in alphabetical order by last name):
 * IBM Champion 2021-2022
 * Current secretary of of the OpenQASM 3 Technical Steering Committee
 
-## 2022-03-04:
+## Blog
+
+### 2022-03-14
+Our team met today with Kevin Krsulich of the IBM Q team to examine promising transpiler issues to address. Two major issues that came up in discussion are:
+* [Add adaptive limits for VF2Layout in preset passmanagers](https://github.com/Qiskit/qiskit-terra/issues/7705)
+  * The transpiler VF2Layout component, if successful, is very effective, but if unsuccessful, can take a long time to fail. This can be partly addressed by proving the user with a "knob" to dial back how long or how many tries VF2Layout takes before giving up. Currenty, there are fixed time limits, but such limits to be effective need to be sensitive to device size and input circuit size. We need examples of perfect layouts which are hard to solve within the current mapping. The solution to the problem is driven by different applications, demonstrations, and examples. There does not yet exist a sufficient body of benchmarks. There are a few papers on VF2, but experimentation will be needed to yield substantial improvement.
+* [Add support for BackendV2 and Target to transpiler](https://github.com/Qiskit/qiskit-terra/issues/7113)
+  * The previous version, Backend V1, is still in use in most places, and deals with configuration, coupling, and basis gates. Backend V2 extends these notions and provides better support for different hardware architectures, e.g., ion traps, which are not well represented by V1. V2 is more general,and expresses gates independently. Support for V2 within existing transpiler passes very limited. All passes must be updated for V2: this one issue will spawn nultiple PRs. The effort is made difficult in that there exists many hard-coded assumptions in the transpiler code. 
+
+Additionally, team member Harshit Gupta is currently finishing up work he previously undertook on the following to issues:
+* [better convergence criteria in preset passmanagers](https://github.com/Qiskit/qiskit-terra/issues/7386)
+* [parallelization / depth reduction pass](https://github.com/Qiskit/qiskit-terra/issues/7387)
+
+For this coming week, the team is going to all work together on finishing up issue 7387 ("better convergence") with Harshit, in part, to become oriented in the transpiler. Then we will proceed to one of the major issues, either dividing into two groups to address both 7705 and 7113, or working together on one or both of those issues.
+
+Our team may also undertake _inter alia_ to address a few smaller issues that can more easily be closed. Jack Woehr will sift through the transpiler issues for smaller issues.
+
+### 2022-03-04:
 
 Our team of Harshit Gupta, Vishnu Ajith, Oskar Słowik, and Jack Woehr met today via Zoom.
 We discussed the following points
