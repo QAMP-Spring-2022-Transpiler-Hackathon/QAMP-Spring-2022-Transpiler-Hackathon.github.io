@@ -48,6 +48,47 @@ Our Github organization is [here](https://github.com/QAMP-Spring-2022-Transpiler
 
 ## Blog
 
+### 2022-03-24
+In attendance Harshit Gupta, Pulkit Sinha, Jack Woehr
+
+#### Agenda for this week
+Focus on [parallelization / depth reduction pass](https://github.com/Qiskit/qiskit-terra/issues/7387)
+
+There are promising heuristic strategies but not all guarantee either a solution nor an optimal solution.
+
+Create transpiler pass DagDependencyReducer which will wrapper 3 algorithms
+
+1. GlobalMaxDAGDepthReducer
+1. InteractiveDAGDepthReducer
+1. IterativeDAGDepthReducer
+
+The 3 algorithms will be coded (at first) in individual files.
+The question arose in the discussion whether the team should present 3 separate PRs for the 3 algorithms.
+We decided that we should submit as one PR and let the IBM engineers decide how to mix and match.
+
+#### PR development layout
+1. Create local branch `dagdependencyreducer`
+1. Check in an empty Transpiler pass as `dagdependencyreducer.py`
+1. Push branch to our fork.
+1. Team clones our `qiskit-terra` fork.
+1. Team does `git fetch` then `git checkout dagdependencyreducer`
+1. From the `dagdependencyreducer` branch,  create sub-branches of the branch as follows:
+  1. `git checkout -b GlobalMaxDAGDepthReducer`
+  2. `git push -u origin GlobalMaxDAGDepthReducer`
+  3. Repeat from `dagdependencyreducer` branch for `InteractiveDAGDepthReducer` and `IterativeDAGDepthReducer`
+
+As work progresses on individual sub-branches, the team can:
+* commit and stash changes
+* checkout the parent branch `dagdependencyreducer` and start building out the master `DagDependencyReducer` class in `dagdependencyreducer.py`
+* commit and push the `dagdependencyreducer` branch
+* checkout the sub-branch and merge the parent branch by `git merge dagdependencyreducer`
+
+Continue development …
+
+#### Tasks
+1. Incorporate qubit args in the GlobalMaxDAGDepthReducer (Harshit)
+1. Write basic code for InteractiveDAGDepthReducer and IterativeDAGDepthReducer (Pulkit)
+
 ### 2022-03-14
 Our team met today with Kevin Krsulich of the IBM Q team to examine promising transpiler issues to address. Two major issues that came up in discussion are:
 * [Add adaptive limits for VF2Layout in preset passmanagers](https://github.com/Qiskit/qiskit-terra/issues/7705)
