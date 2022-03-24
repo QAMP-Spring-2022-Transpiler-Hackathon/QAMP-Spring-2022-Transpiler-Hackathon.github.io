@@ -10,6 +10,7 @@ Table of Contents
 =================
 
 * [QAMP Spring 2022 Transpiler Hackathon](#qamp-spring-2022-transpiler-hackathon)
+* [Table of Contents](#table-of-contents)
    * [Our team (listed in alphabetical order by last name):](#our-team-listed-in-alphabetical-order-by-last-name)
       * [Vishu Ajith](#vishu-ajith)
       * [Harshit Gupta](#harshit-gupta)
@@ -22,6 +23,12 @@ Table of Contents
          * [PR development layout](#pr-development-layout)
          * [Tasks](#tasks)
       * [2022-03-14](#2022-03-14)
+      * [2022-03-04:](#2022-03-04)
+      * [A blue-sky thought about Optimization](#a-blue-sky-thought-about-optimization)
+      * [Project plan](#project-plan)
+         * [First step](#first-step)
+
+_TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)_
 
 ## Our team (listed in alphabetical order by last name):
 
@@ -111,7 +118,7 @@ Our team met today with Kevin Krsulich of the IBM Q team to examine promising tr
 * [Add adaptive limits for VF2Layout in preset passmanagers](https://github.com/Qiskit/qiskit-terra/issues/7705)
   * The transpiler VF2Layout component, if successful, is very effective, but if unsuccessful, can take a long time to fail. This can be partly addressed by proving the user with a "knob" to dial back how long or how many tries VF2Layout takes before giving up. Currenty, there are fixed time limits, but such limits to be effective need to be sensitive to device size and input circuit size. We need examples of perfect layouts which are hard to solve within the current mapping. The solution to the problem is driven by different applications, demonstrations, and examples. There does not yet exist a sufficient body of benchmarks. There are a few papers on VF2, but experimentation will be needed to yield substantial improvement.
 * [Add support for BackendV2 and Target to transpiler](https://github.com/Qiskit/qiskit-terra/issues/7113)
-  * The previous version, Backend V1, is still in use in most places, and deals with configuration, coupling, and basis gates. Backend V2 extends these notions and provides better support for different hardware architectures, e.g., ion traps, which are not well represented by V1. V2 is more general,and expresses gates independently. Support for V2 within existing transpiler passes very limited. All passes must be updated for V2: this one issue will spawn nultiple PRs. The effort is made difficult in that there exists many hard-coded assumptions in the transpiler code. 
+  * The previous version, Backend V1, is still in use in most places, and deals with configuration, coupling, and basis gates. Backend V2 extends these notions and provides better support for different hardware architectures, e.g., ion traps, which are not well represented by V1. V2 is more general,and expresses gates independently. Support for V2 within existing transpiler passes very limited. All passes must be updated for V2: this one issue will spawn nultiple PRs. The effort is made difficult in that there exists many hard-coded assumptions in the transpiler code.
 
 Additionally, team member Harshit Gupta is currently finishing up work he previously undertook on the following to issues:
 * [better convergence criteria in preset passmanagers](https://github.com/Qiskit/qiskit-terra/issues/7386)
@@ -140,17 +147,14 @@ We discussed the following points
 ### Project plan
 
 - Tackle [Qiskit Terra transpiler issues](https://github.com/Qiskit/qiskit-terra/issues?q=is%3Aissue+is%3Aopen+transpiler) as recommended by the IBM Qiskit Team, particularly
-  
+
   - Matthew Treinish
-  
   - Kevin Krsulich
 
 - We have no specific goal other than to be useful to Qiskit Transpiler development. We may find ourselves performing any mixture of the following:
-  
+
   - PR many small issues
-  
   - Work as a team on one or more major issues
-  
   - Invent a new feature ourselves
 
 - We will meet weekly starting 2022-03-14
@@ -158,6 +162,3 @@ We discussed the following points
 #### First step
 
 Matthew Treinish requests that the team help out with [#7113 Add support for BackendV2 and Target to transpiler](https://github.com/Qiskit/qiskit-terra/issues/7113)
-
-#### Acknowledging
-* TOC by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
