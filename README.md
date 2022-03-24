@@ -6,6 +6,23 @@ Our Github organization is [here](https://github.com/QAMP-Spring-2022-Transpiler
 
 [View this document formatted on GitHub Pages](https://qamp-spring-2022-transpiler-hackathon.github.io/)
 
+Table of Contents
+=================
+
+* [QAMP Spring 2022 Transpiler Hackathon](#qamp-spring-2022-transpiler-hackathon)
+   * [Our team (listed in alphabetical order by last name):](#our-team-listed-in-alphabetical-order-by-last-name)
+      * [Vishu Ajith](#vishu-ajith)
+      * [Harshit Gupta](#harshit-gupta)
+      * [Pulkit Sinha](#pulkit-sinha)
+      * [Oskar Słowik](#oskar-słowik)
+      * [Jack Woehr (mentor)](#jack-woehr-mentor)
+   * [Blog](#blog)
+      * [2022-03-24](#2022-03-24)
+         * [Agenda for this week](#agenda-for-this-week)
+         * [PR development layout](#pr-development-layout)
+         * [Tasks](#tasks)
+      * [2022-03-14](#2022-03-14)
+
 ## Our team (listed in alphabetical order by last name):
 
 ### Vishu Ajith
@@ -141,3 +158,6 @@ We discussed the following points
 #### First step
 
 Matthew Treinish requests that the team help out with [#7113 Add support for BackendV2 and Target to transpiler](https://github.com/Qiskit/qiskit-terra/issues/7113)
+
+#### Acknowledging
+* TOC by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
