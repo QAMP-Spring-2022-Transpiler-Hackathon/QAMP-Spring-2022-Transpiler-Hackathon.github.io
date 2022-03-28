@@ -18,6 +18,9 @@ Table of Contents
       * [Oskar Słowik](#oskar-słowik)
       * [Jack Woehr (mentor)](#jack-woehr-mentor)
    * [Blog](#blog)
+      * [2022-03-27](#2022-03-27)
+         * [Discussion](#discussion)
+         * [Agenda / Tasks](#agenda--tasks)
       * [2022-03-24](#2022-03-24)
          * [Agenda for this week](#agenda-for-this-week)
          * [PR development layout](#pr-development-layout)
@@ -27,6 +30,7 @@ Table of Contents
       * [A blue-sky thought about Optimization](#a-blue-sky-thought-about-optimization)
       * [Project plan](#project-plan)
          * [First step](#first-step)
+
 
 _TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)_
 
