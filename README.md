@@ -72,6 +72,66 @@ _TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)_
 
 ## Blog
 
+### 2022-03-27
+In attendance Vishnu Ajith, Harshit Gupta, Oskar Słowik, Jack Woehr
+
+#### Discussion
+We discussed an apparent anomaly in DAG generation as exemplified by Harshit's example:
+```
+from qiskit.converters import circuit_to_dag
+from qiskit import QuantumCircuit
+from qiskit.circuit import QuantumRegister, ClassicalRegister
+from qiskit.visualization import dag_drawer
+
+qr = QuantumRegister(3)
+cr = ClassicalRegister(3)
+circ_reg = QuantumCircuit(qr, cr)
+circ_reg.h(qr[0])
+circ_reg.h(qr[1])
+circ_reg.measure(qr[0], cr[0])
+circ_reg.measure(qr[1], cr[1])
+circ_reg.x(qr[0]).c_if(cr, 0x3)
+circ_reg.measure(qr[0], cr[0])
+circ_reg.measure(qr[1], cr[1])
+circ_reg.measure(qr[2], cr[2])
+
+# direct
+circ_no_reg = QuantumCircuit(3, 3)
+circ_no_reg.h([0, 1])
+circ_no_reg.measure([0, 1, 2], [0, 1, 2])
+circ_no_reg.x(0).c_if(circ_no_reg.cregs[0], 0x3)
+circ_no_reg.measure([0, 1], [0, 1])
+
+# print("Circuit is :", circ_no_reg.draw())
+
+dag_in = circuit_to_dag(circ_no_reg)
+dag_in_reg = circuit_to_dag(circ_reg)
+
+dag_drawer(dag_in, scale=0.7, filename="dag_in_no_reg.png")
+dag_drawer(dag_in_reg, scale=0.7, filename="dag_in_with_reg.png")
+```
+The circuits are semantically equivalent but draw quite different DAGs.
+Harshit will run this by Matthew Treinish.
+
+#### Agenda / Tasks
+
+* Previously we had looked at how to write benchmarks for different mappings w/r/t #7705 Add adaptive limits for VF2Layout in preset passmanagers
+  * Oskar start working on tools for benchmarking for #7705.
+  * Can have substantial progress (Harshit)
+  * Harshit has some code to send Oskar as a template for writing the benchmarking code.
+
+* We were also intending to work on #7113 Add support for BackendV2 and Target to transpiler
+  * Current IBM backend devices seem to have mostly Heavy Hex mapping.
+  * Earlier QPUs had Heavy Square
+  * Vishnu on #7113
+
+* Harshit still working on #7387
+  * Possibility of reaching a dead end in an intrinsic difficulty problem.
+  * Polling Kevin and Matthew
+
+* Structure with fork and branches is good
+* Metric of our effort is PR's: reviews and acceptance
+
 ### 2022-03-24
 In attendance Harshit Gupta, Pulkit Sinha, Jack Woehr
 
