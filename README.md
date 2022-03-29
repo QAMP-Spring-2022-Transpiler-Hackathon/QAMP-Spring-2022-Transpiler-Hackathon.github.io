@@ -18,7 +18,7 @@ Table of Contents
       * [Oskar Słowik](#oskar-słowik)
       * [Jack Woehr (mentor)](#jack-woehr-mentor)
    * [Blog](#blog)
-      * [2022-03-27](#2022-03-27)
+      * [2022-03-28](#2022-03-28)
          * [Discussion](#discussion)
          * [Agenda / Tasks](#agenda--tasks)
       * [2022-03-24](#2022-03-24)
@@ -76,7 +76,7 @@ _TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)_
 
 ## Blog
 
-### 2022-03-27
+### 2022-03-28
 In attendance Vishnu Ajith, Harshit Gupta, Oskar Słowik, Jack Woehr
 
 #### Discussion
