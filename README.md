@@ -19,6 +19,8 @@ Table of Contents
       * [Jack Woehr (mentor)](#jack-woehr-mentor)
    * [Blog](#blog)
       * [2022-04-04](#2022-04-04)
+         * [Presentation](#presentation)
+         * [Issues](#issues)
       * [2022-03-28](#2022-03-28)
          * [Discussion](#discussion)
          * [Agenda / Tasks](#agenda--tasks)
