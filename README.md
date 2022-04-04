@@ -76,6 +76,30 @@ _TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)_
 
 ## Blog
 
+### 2022-04-04
+In attendance Harshit Gupta, Oskar Słowik, Jack Woehr
+
+* Presentation
+  * 8-10 slides 
+  * We first try to give brief overview of the transpiler, where it is situated, how it works and what are its major components
+  * Then move on to the goals of our project and discuss how we are going to contribute to the qiskit transpiler
+  * After that, bring in our project plan - working on two major issues and being helpful on the side.
+  * At the end, show the current PRs and our progress on the issues, to show proof of initial work.
+  * Questions
+  * Jack -- intro slide, project plan slide
+  * Oskar, Harshit -- 2 issues slides each
+  * Jack -- slide for link to blog
+
+* Issues
+  * [7296](https://github.com/Qiskit/qiskit-terra/issues/7296) .. PR [7875](https://github.com/Qiskit/qiskit-terra/pull/7875) ready for review
+  * [7386](https://github.com/Qiskit/qiskit-terra/issues/7386) .. PR [7542](https://github.com/Qiskit/qiskit-terra/pull/7542) was merged
+  * [7387](https://github.com/Qiskit/qiskit-terra/issues/7387) .. stalled
+  * [7705](https://github.com/Qiskit/qiskit-terra/issues/7705) .. Oskar to continue on this
+  * [7181](https://github.com/Qiskit/qiskit-terra/issues/7181) .. Oskar and Harshit take this one up after presentation
+  * [7113](https://github.com/Qiskit/qiskit-terra/issues/7113) .. Deal with this after 7181
+
+
+
 ### 2022-03-28
 In attendance Vishnu Ajith, Harshit Gupta, Oskar Słowik, Jack Woehr
 
