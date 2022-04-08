@@ -9,7 +9,7 @@ Our Github organization is [here](https://github.com/QAMP-Spring-2022-Transpiler
 * [QAMP Spring 2022 Transpiler Hackathon](#qamp-spring-2022-transpiler-hackathon)
 * [Table of Contents](#table-of-contents)
    * [Our team (listed in alphabetical order by last name):](#our-team-listed-in-alphabetical-order-by-last-name)
-      * [Vishu Ajith](#vishu-ajith)
+      * [Vishnu Ajith](#vishnu-ajith)
       * [Harshit Gupta](#harshit-gupta)
       * [Pulkit Sinha](#pulkit-sinha)
       * [Oskar Słowik](#oskar-słowik)
@@ -36,7 +36,7 @@ _TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)_
 
 ## Our team (listed in alphabetical order by last name):
 
-### Vishu Ajith
+### Vishnu Ajith
 
 * Final year undergrad student in computer science
 * Took part in a summer school on compiler analysis
