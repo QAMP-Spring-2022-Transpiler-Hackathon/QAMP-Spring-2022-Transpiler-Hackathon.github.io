@@ -6,9 +6,6 @@ Our Github organization is [here](https://github.com/QAMP-Spring-2022-Transpiler
 
 [View this document formatted on GitHub Pages](https://qamp-spring-2022-transpiler-hackathon.github.io/)
 
-Table of Contents
-=================
-
 * [QAMP Spring 2022 Transpiler Hackathon](#qamp-spring-2022-transpiler-hackathon)
 * [Table of Contents](#table-of-contents)
    * [Our team (listed in alphabetical order by last name):](#our-team-listed-in-alphabetical-order-by-last-name)
@@ -18,7 +15,10 @@ Table of Contents
       * [Oskar Słowik](#oskar-słowik)
       * [Jack Woehr (mentor)](#jack-woehr-mentor)
    * [Blog](#blog)
+      * [2022-04-07 QAMP Spring 2022 Checkpoint #1](#2022-04-07-qamp-spring-2022-checkpoint-1)
       * [2022-04-04](#2022-04-04)
+         * [Presentation](#presentation)
+         * [Issues](#issues)
       * [2022-03-28](#2022-03-28)
          * [Discussion](#discussion)
          * [Agenda / Tasks](#agenda--tasks)
@@ -76,6 +76,9 @@ _TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)_
 
 ## Blog
 
+### 2022-04-07 QAMP Spring 2022 Checkpoint #1
+Our [Checkpoint #1 presentation PDF](checkpoint_presentations/checkpoint_1_20220407/#1_Transpiler_Hackathon.pdf)
+
 ### 2022-04-04
 In attendance Harshit Gupta, Oskar Słowik, Jack Woehr
 
@@ -97,7 +100,6 @@ In attendance Harshit Gupta, Oskar Słowik, Jack Woehr
   * [7705](https://github.com/Qiskit/qiskit-terra/issues/7705) .. Oskar to continue on this
   * [7181](https://github.com/Qiskit/qiskit-terra/issues/7181) .. Oskar and Harshit take this one up after presentation
   * [7113](https://github.com/Qiskit/qiskit-terra/issues/7113) .. Deal with this after 7181
-
 
 ### 2022-03-28
 In attendance Vishnu Ajith, Harshit Gupta, Oskar Słowik, Jack Woehr
