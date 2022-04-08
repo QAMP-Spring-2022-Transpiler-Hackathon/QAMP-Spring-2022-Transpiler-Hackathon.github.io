@@ -77,7 +77,7 @@ _TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)_
 ## Blog
 
 ### 2022-04-07 QAMP Spring 2022 Checkpoint #1
-Our [Checkpoint #1 presentation PDF](checkpoint_presentations/checkpoint_1_20220407/#1_Transpiler_Hackathon.pdf)
+Our [Checkpoint #1 presentation PDF](https://github.com/QAMP-Spring-2022-Transpiler-Hackathon/QAMP-Spring-2022-Transpiler-Hackathon.github.io/blob/main/checkpoint_presentations/checkpoint_1_20220407/%231_Transpiler_Hackathon.pdf)
 
 ### 2022-04-04
 In attendance Harshit Gupta, Oskar Słowik, Jack Woehr
