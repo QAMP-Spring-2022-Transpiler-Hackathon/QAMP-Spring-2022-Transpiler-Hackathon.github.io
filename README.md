@@ -77,6 +77,7 @@ _TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)_
 ## Blog
 
 ### 2022-04-11
+In attendance Harshit Gupta, Oskar Słowik, Jack Woehr
 
 #### Progress
 PR 7193 for 7181 - Harshit submitted substantial improvements
@@ -86,11 +87,11 @@ PR 7875 for 7296 - Harshit submitted ... work in progress ...add Gate attribute 
 7485 .. BasisTranslator taking up to 1G of memory ... attractive and substantial issue because level 1,2,3 all use BasisTranslator
 
 #### Tasks
-Examine where should we place the check for the symmetric qargs in the InverseCancellation pass? - Harshit
-With 7181 working pretty good now, one thought is that should we try to make it target aware? Matthew had included it in the list of passes to make target aware and since Harshit got a bit familiar with it during optimization, he will try doing that.
-Continue 7705 Discover some parameters for the tuning of the time for search - Oskar
-7485 - Oskar
-Jack will keep lines of communication open with IBM team.
+* Examine where should we place the check for the symmetric qargs in the InverseCancellation pass? - Harshit
+* With 7181 working pretty good now, one thought is that should we try to make it target aware? Matthew had included it in the list of passes to make target aware and since Harshit got a bit familiar with it during optimization, he will try doing that.
+* Continue 7705 Discover some parameters for the tuning of the time for search - Oskar
+* 7485 - Oskar
+* Jack will keep lines of communication open with IBM team.
 
 ### 2022-04-07 QAMP Spring 2022 Checkpoint #1
 Our [Checkpoint #1 presentation PDF](https://github.com/QAMP-Spring-2022-Transpiler-Hackathon/QAMP-Spring-2022-Transpiler-Hackathon.github.io/blob/main/checkpoint_presentations/checkpoint_1_20220407/%231_Transpiler_Hackathon.pdf)
