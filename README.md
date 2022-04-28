@@ -75,6 +75,40 @@ _TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)_
 * Current secretary of of the OpenQASM 3 Technical Steering Committee
 
 ## Blog
+### 2022-04-28
+In attendance Harshit Gupta, Oskar Słowik, Jack Woehr, Matthew Treinish
+
+#### Progress
+* PRs
+    * 7913 merged
+    * 7990 ready for review
+    * 7879 ready for review
+    * 7875 had review, needs work, less substantial than work on issue 7485
+* Issues
+    * 7485
+    * 7705
+
+#### Tasks
+* Harshit
+    * Regression from PR 7181 (merged)
+    * Issue 7485
+* Oskar
+    * Graphs to show Matthew
+    * Work on 7705
+* All
+    * Discuss May 5 overview on Slack
+
+#### General
+* Matthew
+    * Team can help on reviews
+    * Look at open Transpiler PRs
+        * provide feedback
+        * familiarize self with code and see where things are going
+        * team can see bugs as well as anyone
+* Harshit
+    * Exams May 5 - May 15
+* Oskar & Jack
+    * Meet via Slack during Harshit's hiatus for exams.
 
 ### 2022-04-11
 In attendance Harshit Gupta, Oskar Słowik, Jack Woehr
@@ -100,7 +134,7 @@ Our [Checkpoint #1 presentation PDF](https://github.com/QAMP-Spring-2022-Transpi
 In attendance Harshit Gupta, Oskar Słowik, Jack Woehr
 
 #### Presentation
-  * 8-10 slides 
+  * 8-10 slides
   * We first try to give brief overview of the transpiler, where it is situated, how it works and what are its major components
   * Then move on to the goals of our project and discuss how we are going to contribute to the qiskit transpiler
   * After that, bring in our project plan - working on two major issues and being helpful on the side.
