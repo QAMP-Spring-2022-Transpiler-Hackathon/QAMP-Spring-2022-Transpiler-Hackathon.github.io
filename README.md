@@ -6,6 +6,9 @@ Our Github organization is [here](https://github.com/QAMP-Spring-2022-Transpiler
 
 [View this document formatted on GitHub Pages](https://qamp-spring-2022-transpiler-hackathon.github.io/)
 
+Table of Contents
+=================
+
 * [QAMP Spring 2022 Transpiler Hackathon](#qamp-spring-2022-transpiler-hackathon)
 * [Table of Contents](#table-of-contents)
    * [Our team (listed in alphabetical order by last name):](#our-team-listed-in-alphabetical-order-by-last-name)
@@ -15,6 +18,13 @@ Our Github organization is [here](https://github.com/QAMP-Spring-2022-Transpiler
       * [Oskar Słowik](#oskar-słowik)
       * [Jack Woehr (mentor)](#jack-woehr-mentor)
    * [Blog](#blog)
+      * [2022-04-28](#2022-04-28)
+         * [Progress](#progress)
+         * [Tasks](#tasks)
+         * [General](#general)
+      * [2022-04-11](#2022-04-11)
+         * [Progress](#progress-1)
+         * [Tasks](#tasks-1)
       * [2022-04-07 QAMP Spring 2022 Checkpoint #1](#2022-04-07-qamp-spring-2022-checkpoint-1)
       * [2022-04-04](#2022-04-04)
          * [Presentation](#presentation)
@@ -25,7 +35,7 @@ Our Github organization is [here](https://github.com/QAMP-Spring-2022-Transpiler
       * [2022-03-24](#2022-03-24)
          * [Agenda for this week](#agenda-for-this-week)
          * [PR development layout](#pr-development-layout)
-         * [Tasks](#tasks)
+         * [Tasks](#tasks-2)
       * [2022-03-14](#2022-03-14)
       * [2022-03-04:](#2022-03-04)
       * [A blue-sky thought about Optimization](#a-blue-sky-thought-about-optimization)
