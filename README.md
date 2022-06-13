@@ -18,6 +18,10 @@ Table of Contents
       * [Oskar Słowik](#oskar-słowik)
       * [Jack Woehr (mentor)](#jack-woehr-mentor)
    * [Blog](#blog)
+      * [2022-06-13](#2022-06-13)
+         * [<a href="https://drive.google.com/file/d/13-asuitwPUZTHN9J2nfQtgltPpkh3JgX/view?usp=sharing" rel="nofollow">QAMP Spring 2022 final presentation video</a>](#qamp-spring-2022-final-presentation-video)
+      * [2022-05-05](#2022-05-05)
+         * [<a href="https://github.com/QAMP-Spring-2022-Transpiler-Hackathon/QAMP-Spring-2022-Transpiler-Hackathon.github.io/tree/main/checkpoint_presentations/checkpoint_2_20220505">QAMP Spring 2022 Checkpoint Presentation #2</a>](#qamp-spring-2022-checkpoint-presentation-2)
       * [2022-04-28](#2022-04-28)
          * [Progress](#progress)
          * [Tasks](#tasks)
@@ -87,10 +91,10 @@ _TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)_
 ## Blog
 
 ### 2022-06-13
-[QAMP Spring 2022 final presentation video](https://drive.google.com/file/d/13-asuitwPUZTHN9J2nfQtgltPpkh3JgX/view?usp=sharing)
+#### [QAMP Spring 2022 final presentation video](https://drive.google.com/file/d/13-asuitwPUZTHN9J2nfQtgltPpkh3JgX/view?usp=sharing)
 
 ### 2022-05-05
-[QAMP Spring 2022 Checkpoint Presentation #2](https://github.com/QAMP-Spring-2022-Transpiler-Hackathon/QAMP-Spring-2022-Transpiler-Hackathon.github.io/tree/main/checkpoint_presentations/checkpoint_2_20220505)
+#### [QAMP Spring 2022 Checkpoint Presentation #2](https://github.com/QAMP-Spring-2022-Transpiler-Hackathon/QAMP-Spring-2022-Transpiler-Hackathon.github.io/tree/main/checkpoint_presentations/checkpoint_2_20220505)
 
 ### 2022-04-28
 In attendance Harshit Gupta, Oskar Słowik, Jack Woehr, Matthew Treinish
