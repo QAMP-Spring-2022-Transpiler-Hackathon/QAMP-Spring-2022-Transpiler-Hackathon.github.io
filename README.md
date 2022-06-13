@@ -85,6 +85,13 @@ _TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)_
 * Current secretary of of the OpenQASM 3 Technical Steering Committee
 
 ## Blog
+
+### 2022-06-13
+[QAMP Spring 2022 final presentation video](https://drive.google.com/file/d/13-asuitwPUZTHN9J2nfQtgltPpkh3JgX/view?usp=sharing)
+
+### 2022-05-05
+[QAMP Spring 2022 Checkpoint Presentation #2](https://github.com/QAMP-Spring-2022-Transpiler-Hackathon/QAMP-Spring-2022-Transpiler-Hackathon.github.io/tree/main/checkpoint_presentations/checkpoint_2_20220505)
+
 ### 2022-04-28
 In attendance Harshit Gupta, Oskar Słowik, Jack Woehr, Matthew Treinish
 
